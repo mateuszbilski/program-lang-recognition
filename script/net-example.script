@@ -1,0 +1,147 @@
+#Net configuration
+#noNeuronsInHiddenLayers learningFacotr shapeFactor momentum bias maxEpoch minError validateNetAfterNoOfEpochs
+15 0.10 1.0 0.5 1.0 15000 0.001 1000
+
+#Language definition
+ansiC
+C++
+
+#Symbols definition
+#Common
+~
+`
+!
+@
+\#
+$
+%
+^
+&
+*
+(
+)
+-
+_
+=
++
+\
+|
+]
+}
+[
+{
+'
+"
+;
+:
+/
+?
+.
+>
+,
+<
+#C
+::
+->
+.
+++
+--
+!
+~
+++
+--
+-
++
+*
+&
+->*
+.*
+*
+/
+%
++
+-
+<<
+>>
+<
+<=
+>
+>=
+==
+!=
+&
+^
+|
+&&
+||
+?
+:
+=
++=
+-=
+*=
+/=
+%=
+&=
+^=
+|=
+<<=
+>>=
+,
+#C++
+::
+++
+--
+.
++
+-
+!
+~
+*
+&
+.*
+->*
+*
+/
+%
++
+-
+<<
+>>
+<
+>
+<=
+>=
+==
+!=
+&
+^
+|
+&&
+||
+?
+:
+=
++=
+-=
+*=
+/=
+%=
+<<=
+>>=
+&=
+^=
+|=
+,
+
+#Training files
+ansiC Input pattern\ansiC-1.txt
+ansiC Input pattern\ansiC-2.txt
+C++ Input pattern\c++-1.txt
+C++ Input pattern\c++-2.txt
+
+#Test files
+Test files\ansiC-1.txt
+Test files\ansiC-2.txt
+Test files\c++-1.txt
+Test files\c++-2.txt
